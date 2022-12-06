@@ -1,5 +1,4 @@
 * {
-  /* Reset all the margin and Padding */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,17 +6,17 @@
 
 @font-face {
   font-family: Inspiration;
-  src: url("Inspiration-Regular.ttf");
+  src: url('Inspiration-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Iowan Old Style";
-  src: url("Bitstream\ Iowan\ Old\ Style\ BT.ttf");
+  font-family: 'Iowan Old Style';
+  src: url('Bitstream\ Iowan\ Old\ Style\ BT.ttf');
   font-style: italic;
 }
 
 body {
-  font-family: "Iowan Old Style";
+  font-family: 'Iowan Old Style';
   font-style: italic;
 }
 
@@ -93,42 +92,84 @@ a:visited {
 
 #search::placeholder {
   color: #000;
-  font-family: "Iowan Old Style";
+  font-family: 'Iowan Old Style';
   font-style: italic;
   font-size: 14px;
   padding-left: 7px;
 }
 
+article {
+  margin-top: 170px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.product-raw {
+  background-color: aqua;
+  width: 80%;
+  margin: auto;
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+/* /////////////////////// Product Details ///////////////////////// */
+.article {
+  /* max-width: 1820px; */
+  height: auto;
+  margin: 100px 60px;
+  box-sizing: border-box;
 
 
+}
 
+.article-row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+}
 
+.product-box {
+  border: solid 5px #2e6a73;
+  border-radius: 47px;
+  background-color: #f7f7f7;
+  height: 700px;
+  width: 950px;
+  margin-right: 60px;
+}
 
+.product-bag {
+  border: solid 5px #2e6a73;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  width: 475px;
+  height: 700px;
+  margin-left: 30px;
+  margin-right: 0;
+}
 
-/* ********* FOOTER CONTENT HERE ************** */
-
+/* //////////////////////Footer starts here///////////////////////// */
 .container-footer {
   max-width: 1820px;
   /* background-color: red; */
   margin: auto;
 }
 
-.row-footer {
+.row {
   display: flex;
   flex-wrap: wrap;
 }
 
 footer {
-  background-color: #2E6A73;
+  background-color: #2e6a73;
   padding: 70px 0;
 }
 
 .footer-col {
   width: 25%;
-  padding:  0 15px;
+  padding: 0 15px;
 }
 
-footer li:not(:last-child){
+footer li:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -137,20 +178,18 @@ footer h4 {
   font-size: 18px;
   color: white;
 }
- footer ul li a {
+footer ul li a {
   color: white;
   text-decoration: none;
   display: block;
   transition: all 0.3s ease;
- }
+}
 
-
- footer ul li a:hover {
+footer ul li a:hover {
   color: white;
   padding-left: 10px;
- }
+}
 
 ul {
   list-style: none;
 }
-
