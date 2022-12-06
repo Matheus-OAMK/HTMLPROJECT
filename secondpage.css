@@ -60,7 +60,8 @@ header {
 }
 
 .nav-menu a:hover {
-  text-decoration: solid #a13737 underline 3px;
+  /* text-decoration: solid #a13737 underline 3px; */
+  border-bottom: solid 3px red;
 }
 
 a:active {
@@ -98,34 +99,20 @@ a:visited {
   padding-left: 7px;
 }
 
-article {
-  margin-top: 170px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.product-raw {
-  background-color: aqua;
-  width: 80%;
-  margin: auto;
-  height: 400px;
-  margin-bottom: 100px;
-}
-
 /* /////////////////////// Product Details ///////////////////////// */
-.article {
-  /* max-width: 1820px; */
-  height: auto;
-  margin: 100px 60px;
+article {
   box-sizing: border-box;
-
-
+  /* background-color: green; */
+  margin: 170px 100px;
 }
 
-.article-row {
+.product-container {
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-  background-color: red;
+  /* background-color: red; */
+  justify-content: space-between;
+  padding-bottom: 100px;
 }
 
 .product-box {
@@ -133,36 +120,63 @@ article {
   border-radius: 47px;
   background-color: #f7f7f7;
   height: 700px;
-  width: 950px;
-  margin-right: 60px;
+  flex-basis: 60%;
 }
 
 .product-bag {
   border: solid 5px #2e6a73;
   background-color: #f7f7f7;
-  border-radius: 20px;
-  width: 475px;
+  border-radius: 47px;
+  flex-basis: 30%;
   height: 700px;
-  margin-left: 30px;
-  margin-right: 0;
+}
+
+article a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-left: 50px;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+article a:active {
+  color: #000;
+}
+
+article a:hover {
+  border-bottom: solid 3px red;
+}
+
+.description-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+.details-col {
+width: 25%;
+/* background-color: blue; */
+margin-left: 100px;
 }
 
 /* //////////////////////Footer starts here///////////////////////// */
 .container-footer {
-  max-width: 1820px;
-  /* background-color: red; */
-  margin: auto;
+  /* max-width: 1820px; */
+   /* background-color: red; */
+  /* margin: auto; */
+  background-color: #2e6a73;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-}
-
-footer {
+  max-width: 1820px;
+  /* background-color: red; */
+  margin: auto;
   background-color: #2e6a73;
   padding: 70px 0;
 }
+
 
 .footer-col {
   width: 25%;
@@ -190,6 +204,6 @@ footer ul li a:hover {
   padding-left: 10px;
 }
 
-ul {
+footer ul {
   list-style: none;
 }
