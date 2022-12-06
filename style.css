@@ -49,7 +49,7 @@ header {
 .nav-menu {
   position: absolute;
   height: auto;
-  bottom: 3px;
+  bottom: 4px;
   margin-left: 60px;
   font-size: 17px;
 }
@@ -62,7 +62,7 @@ header {
 }
 
 .nav-menu a:hover {
-  text-decoration: solid #a13737 underline 3px;
+  border-bottom: solid 4px #a13737;
 }
 
 a:active {
@@ -198,24 +198,30 @@ article {
   flex-wrap: wrap;
 }
 
-.product-raw:first-child {
+/* .product-raw:first-child {
   background-color: white;
   margin-bottom: 50px;
   margin-right: 60px;
   margin-left: 60px;
   height: 704px;
-}
+} */
 
-.product-raw:last-child {
+/* .product-raw:last-child {
   background-color: white;
   margin-top: 50px;
   margin-bottom: 262px;
   margin-right: 60px;
   margin-left: 60px;
   height: 704px;
+} */
+
+.product-link-box {
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
 }
 
-.product {
+.product-box {
   margin: auto;
   width: 400px;
   height: 560px;
@@ -225,7 +231,7 @@ article {
   border-radius: 47px;
 }
 
-.product img {
+.product-box img {
   width: 392px;
   height: 392px;
   margin-top: 50px;
