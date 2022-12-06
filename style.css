@@ -12,12 +12,12 @@
 @font-face {
   font-family: "Iowan Old Style";
   src: url("Bitstream\ Iowan\ Old\ Style\ BT.ttf");
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 body {
   font-family: "Iowan Old Style";
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 header {
@@ -94,9 +94,32 @@ a:visited {
 #search::placeholder {
   color: #000;
   font-family: "Iowan Old Style";
-  font-style: italic;
   font-size: 14px;
   padding-left: 7px;
+}
+
+#profile {
+  position: absolute;
+  right: 40px;
+  top: 30%;
+}
+
+#profile a img {
+  width: 30px;
+  height: 30px;
+  background-color: #2e6a73;
+}
+
+#bag {
+  position: absolute;
+  right: 90px;
+  top: 30%;
+}
+
+#bag a img {
+  width: 30px;
+  height: 30px;
+  background-color: #2e6a73;
 }
 
 article {
@@ -121,7 +144,7 @@ article {
   border: solid #2e6a73 3px;
   cursor: pointer;
   font-family: "Iowan Old Style";
-  font-style: italic;
+
   font-size: 17px;
   position: relative;
 }
@@ -134,7 +157,7 @@ article {
   background-color: #fff;
   border: solid #2e6a73 3px;
   font-family: "Iowan Old Style";
-  font-style: italic;
+
   font-size: 18px;
 }
 
@@ -145,6 +168,14 @@ article {
 #filter {
   position: absolute;
   left: 15px;
+  top: 6px;
+}
+
+.filter-box img {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  right: 15px;
   top: 6px;
 }
 
