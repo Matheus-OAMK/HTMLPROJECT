@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background-color: aqua;
+    height: 3984px;
+    margin-top: 395px;
+    margin-bottom: 596px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.second {
+    background-color: red;
+    height: 704px;
+    margin-top: 395px;
+    margin-bottom: ;
+}
