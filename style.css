@@ -26,6 +26,7 @@ header {
   width: 100%;
   top: 0;
   position: fixed;
+  z-index: 1000;
 }
 
 .title-box {
@@ -190,7 +191,102 @@ article {
   margin: auto;
   height: 500px;
   margin-bottom: 100px;
+  background-color: white;
+  margin-top: 395px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
+
+/* Product lists */
+
+.product-raw {
+  display: flex;
+  background-color: white;
+  margin-bottom: 116px;
+  margin-right: 60px;
+  margin-left: 60px;
+  height: 704px;
+  flex-wrap: wrap;
+}
+
+.product-raw:first-child {
+  background-color: white;
+  margin-top: 395px;
+  margin-bottom: 116px;
+  margin-right: 60px;
+  margin-left: 60px;
+  height: 704px;
+}
+
+.product-raw:last-child {
+  background-color: white;
+  margin-top: 116px;
+  margin-bottom: 262px;
+  margin-right: 60px;
+  margin-left: 60px;
+  height: 704px;
+}
+
+.product {
+  margin: auto;
+  width: 500px;
+  height: 700px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: solid 5px #2e6a73;
+  border-radius: 47px;
+}
+
+img {
+  width: 490px;
+  height: 490px;
+  margin-top: 50px;
+}
+
+.product-info {
+  position: relative;
+}
+
+.product-spec {
+  margin-top: 30px;
+  position: absolute;
+  left: 50px;
+  text-align: left;
+  font-style: italic;
+}
+
+.product-name {
+  font-family: 'Iowan Old Style';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  opacity: 0.75;
+  color: #030000;
+}
+
+
+.product-detail {
+  font-family: 'Iowan Old Style';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #030000;
+  opacity: 0.75;
+}
+
+.product-price {
+  position: absolute;
+  right: 80px;
+  z-index: 999;
+  margin-top: 40px;
+  font-style: italic;
+  font-size: 30px;
+}
+
 
 /* /////////////////////////////////////////////// */
 .container-footer {
@@ -224,6 +320,7 @@ footer h4 {
   font-size: 18px;
   color: white;
 }
+
 footer ul li a {
   color: white;
   text-decoration: none;
