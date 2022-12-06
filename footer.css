@@ -11,7 +11,7 @@
   margin: auto;
 }
 
-.row {
+.row-footer {
   display: flex;
   flex-wrap: wrap;
 }
