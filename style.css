@@ -50,7 +50,8 @@ header {
   position: absolute;
   height: auto;
   bottom: 3px;
-  margin-left: 20px;
+  margin-left: 60px;
+  font-size: 17px;
 }
 
 .nav-menu a:link {
@@ -94,12 +95,102 @@ a:visited {
 #search::placeholder {
   color: #000;
   font-family: "Iowan Old Style";
-  font-style: italic;
   font-size: 14px;
   padding-left: 7px;
 }
 
+#profile {
+  position: absolute;
+  right: 40px;
+  top: 30%;
+}
+
+#profile a img {
+  width: 30px;
+  height: 30px;
+  background-color: #2e6a73;
+}
+
+#bag {
+  position: absolute;
+  right: 90px;
+  top: 30%;
+}
+
+#bag a img {
+  width: 30px;
+  height: 30px;
+  background-color: #2e6a73;
+}
+
 article {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.filter-zone {
+  width: 100%;
+  margin-top: 110px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-box {
+  height: 40px;
+  width: 250px;
+  border-radius: 45px;
+  box-shadow: rgb(72, 72, 72) 2px 2px 4px;
+  background-color: #fff;
+  border: solid #2e6a73 3px;
+  cursor: pointer;
+  font-family: "Iowan Old Style";
+
+  font-size: 17px;
+  position: relative;
+}
+
+.filter-box-search {
+  height: 40px;
+  width: 250px;
+  border-radius: 45px;
+  box-shadow: rgb(72, 72, 72) 2px 2px 4px;
+  background-color: #fff;
+  border: solid #2e6a73 3px;
+  font-family: "Iowan Old Style";
+
+  font-size: 18px;
+}
+
+.filter-box-search[type="text"]::placeholder {
+  text-align: center;
+}
+
+#filter {
+  position: absolute;
+  left: 15px;
+  top: 6px;
+}
+
+.filter-box img {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  right: 15px;
+  top: 6px;
+}
+
+#sort-by {
+  position: absolute;
+  right: 15px;
+  top: 6px;
+}
+.product-row {
+  background-color: aqua;
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  margin-bottom: 100px;
   background-color: white;
   margin-top: 395px;
   margin-left: 0px;
@@ -205,6 +296,7 @@ img {
 }
 
 .row {
+  margin-left: 60px;
   display: flex;
   flex-wrap: wrap;
 }
