@@ -273,6 +273,7 @@ article {
 }
 
 .product-price {
+  color: #000;
   position: absolute;
   right: 30px;
   top: -25px;
