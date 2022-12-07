@@ -62,7 +62,7 @@ header {
 }
 
 .nav-menu a:hover {
-  border-bottom: solid 4px #a13737;
+  border-bottom: solid 4px red;
 }
 
 a:active {
@@ -145,7 +145,6 @@ article {
   border: solid #2e6a73 3px;
   cursor: pointer;
   font-family: "Iowan Old Style";
-
   font-size: 17px;
   position: relative;
 }
@@ -158,7 +157,6 @@ article {
   background-color: #fff;
   border: solid #2e6a73 3px;
   font-family: "Iowan Old Style";
-
   font-size: 18px;
 }
 
@@ -197,23 +195,6 @@ article {
   height: 704px;
   flex-wrap: wrap;
 }
-
-/* .product-raw:first-child {
-  background-color: white;
-  margin-bottom: 50px;
-  margin-right: 60px;
-  margin-left: 60px;
-  height: 704px;
-} */
-
-/* .product-raw:last-child {
-  background-color: white;
-  margin-top: 50px;
-  margin-bottom: 262px;
-  margin-right: 60px;
-  margin-left: 60px;
-  height: 704px;
-} */
 
 .product-link-box {
   flex-flow: row wrap;
