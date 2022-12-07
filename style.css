@@ -49,7 +49,7 @@ header {
 .nav-menu {
   position: absolute;
   height: auto;
-  bottom: 3px;
+  bottom: 4px;
   margin-left: 60px;
   font-size: 17px;
 }
@@ -62,7 +62,7 @@ header {
 }
 
 .nav-menu a:hover {
-  text-decoration: solid #a13737 underline 3px;
+  border-bottom: solid 4px #a13737;
 }
 
 a:active {
@@ -185,61 +185,55 @@ article {
   right: 15px;
   top: 6px;
 }
-.product-row {
-  background-color: aqua;
-  width: 100%;
-  margin: auto;
-  height: 500px;
-  margin-bottom: 100px;
-  background-color: white;
-  margin-top: 395px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
 
 /* Product lists */
 
 .product-raw {
   display: flex;
   background-color: white;
-  margin-bottom: 116px;
+  margin-bottom: 50px;
   margin-right: 60px;
   margin-left: 60px;
   height: 704px;
   flex-wrap: wrap;
 }
 
-.product-raw:first-child {
+/* .product-raw:first-child {
   background-color: white;
-  margin-top: 395px;
-  margin-bottom: 116px;
+  margin-bottom: 50px;
   margin-right: 60px;
   margin-left: 60px;
   height: 704px;
-}
+} */
 
-.product-raw:last-child {
+/* .product-raw:last-child {
   background-color: white;
-  margin-top: 116px;
+  margin-top: 50px;
   margin-bottom: 262px;
   margin-right: 60px;
   margin-left: 60px;
   height: 704px;
+} */
+
+.product-link-box {
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
 }
 
-.product {
+.product-box {
   margin: auto;
-  width: 500px;
-  height: 700px;
+  width: 400px;
+  height: 560px;
   flex-flow: row wrap;
   justify-content: space-around;
   border: solid 5px #2e6a73;
   border-radius: 47px;
 }
 
-img {
-  width: 490px;
-  height: 490px;
+.product-box img {
+  width: 392px;
+  height: 392px;
   margin-top: 50px;
 }
 
@@ -250,13 +244,14 @@ img {
 .product-spec {
   margin-top: 30px;
   position: absolute;
-  left: 50px;
+  top: -20px;
+  left: 20px;
   text-align: left;
   font-style: italic;
 }
 
 .product-name {
-  font-family: 'Iowan Old Style';
+  font-family: "Iowan Old Style";
   font-style: italic;
   font-weight: 400;
   font-size: 28px;
@@ -265,9 +260,8 @@ img {
   color: #030000;
 }
 
-
 .product-detail {
-  font-family: 'Iowan Old Style';
+  font-family: "Iowan Old Style";
   font-style: italic;
   font-weight: 400;
   font-size: 17px;
@@ -279,14 +273,15 @@ img {
 }
 
 .product-price {
+  color: #000;
   position: absolute;
-  right: 80px;
+  right: 30px;
+  top: -25px;
   z-index: 999;
   margin-top: 40px;
   font-style: italic;
   font-size: 30px;
 }
-
 
 /* /////////////////////////////////////////////// */
 .container-footer {
