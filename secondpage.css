@@ -1,5 +1,4 @@
 * {
-  /* Reset all the margin and Padding */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,17 +6,17 @@
 
 @font-face {
   font-family: Inspiration;
-  src: url("Inspiration-Regular.ttf");
+  src: url('Inspiration-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Iowan Old Style";
-  src: url("Bitstream\ Iowan\ Old\ Style\ BT.ttf");
+  font-family: 'Iowan Old Style';
+  src: url('Bitstream\ Iowan\ Old\ Style\ BT.ttf');
   font-style: italic;
 }
 
 body {
-  font-family: "Iowan Old Style";
+  font-family: 'Iowan Old Style';
   font-style: italic;
 }
 
@@ -61,7 +60,8 @@ header {
 }
 
 .nav-menu a:hover {
-  text-decoration: solid #a13737 underline 3px;
+  /* text-decoration: solid #a13737 underline 3px; */
+  border-bottom: solid 3px red;
 }
 
 a:active {
@@ -93,42 +93,97 @@ a:visited {
 
 #search::placeholder {
   color: #000;
-  font-family: "Iowan Old Style";
+  font-family: 'Iowan Old Style';
   font-style: italic;
   font-size: 14px;
   padding-left: 7px;
 }
 
+/* /////////////////////// Product Details ///////////////////////// */
+article {
+  box-sizing: border-box;
+  /* background-color: green; */
+  margin: 170px 100px;
+}
 
+.product-container {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
 
+.product-box {
+  border: solid 5px #2e6a73;
+  border-radius: 47px;
+  background-color: #f7f7f7;
+  height: 700px;
+  flex-basis: 60%;
+}
 
+.product-bag {
+  border: solid 5px #2e6a73;
+  background-color: #f7f7f7;
+  border-radius: 47px;
+  flex-basis: 30%;
+  height: 700px;
+}
 
+article a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-left: 50px;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+article a:active {
+  color: #000;
+}
 
+article a:hover {
+  border-bottom: solid 3px red;
+}
 
-/* ********* FOOTER CONTENT HERE ************** */
+.description-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
 
+.details-col {
+width: 25%;
+/* background-color: blue; */
+margin-left: 100px;
+}
+
+/* //////////////////////Footer starts here///////////////////////// */
 .container-footer {
+  /* max-width: 1820px; */
+   /* background-color: red; */
+  /* margin: auto; */
+  background-color: #2e6a73;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 1820px;
   /* background-color: red; */
   margin: auto;
-}
-
-.row-footer {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-footer {
-  background-color: #2E6A73;
+  background-color: #2e6a73;
   padding: 70px 0;
 }
 
+
 .footer-col {
   width: 25%;
-  padding:  0 15px;
+  padding: 0 15px;
 }
 
-footer li:not(:last-child){
+footer li:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -137,20 +192,18 @@ footer h4 {
   font-size: 18px;
   color: white;
 }
- footer ul li a {
+footer ul li a {
   color: white;
   text-decoration: none;
   display: block;
   transition: all 0.3s ease;
- }
-
-
- footer ul li a:hover {
-  color: white;
-  padding-left: 10px;
- }
-
-ul {
-  list-style: none;
 }
 
+footer ul li a:hover {
+  color: white;
+  padding-left: 10px;
+}
+
+footer ul {
+  list-style: none;
+}
