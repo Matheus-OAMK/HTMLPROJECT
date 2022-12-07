@@ -229,6 +229,8 @@ article {
   justify-content: space-around;
   border: solid 5px #2e6a73;
   border-radius: 47px;
+  box-shadow: rgb(72, 72, 72) 2px 2px 4px;
+  background-color: #F7F7F7;
 }
 
 .product-box img {
