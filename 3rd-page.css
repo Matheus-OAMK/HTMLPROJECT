@@ -22,7 +22,7 @@ body {
 
 header {
     background-color: #2e6a73;
-    height: 70px;
+    height: 100px;
     width: 100%;
     top: 0;
     position: fixed;
@@ -39,11 +39,11 @@ header {
     height: auto;
     text-align: center;
     font-family: Inspiration;
-    font-style: normal;
-    font-size: 60px;
+    font-size: 90px;
     top: 0;
     color: #fff;
     font-style: italic;
+    font-weight: 400;
 }
 
 .nav-menu {
@@ -102,7 +102,7 @@ a:visited {
 
 /* /////////////////////// Product Details ///////////////////////// */
 
-/* ////////////////////// SHOPPING BAG TITLE ////////////////////// */
+/* ////////////////////// SHOPPING BAG PAGE ////////////////////// */
 
 article {
     margin-top: 170px;
@@ -116,9 +116,54 @@ article {
     font-weight: 400;
     font-size: 40px;
     text-align: center;
+    margin-bottom: 29px;
 
     color: #000000;
 }
+
+.shopping-bag-product-box {
+    width: 1051px;
+    height: 491px;
+    margin-left: 60px;
+    background: #F7F7F7;
+    border: 5px solid #2E6A73;
+    border-radius: 47px;
+    padding-top: 76px;
+    padding-left: 40px;
+    padding-bottom: 71px;
+
+}
+
+.shopping-bag-swan-box {
+    width: 360px;
+    height: 344px;
+    left: 100px;
+    top: 392px;
+    background: #F7F7F7;
+    border: 5px solid #2E6A73;
+    border-radius: 47px;
+    background-color: white;
+}
+
+.voucher-box {
+    width: 1051px;
+    height: 317px;
+    margin-top: 70px;
+    margin-left: 60px;
+    background: #F7F7F7;
+    border: 5px solid #2E6A73;
+    border-radius: 47px;
+}
+
+.order-summary-box {
+    width: 564px;
+    height: 1162px;
+    margin-left: 1196px;
+    background: #F7F7F7;
+    border: 5px solid #2E6A73;
+    border-radius: 47px;
+}
+
 
 /* //////////////////////Footer starts here///////////////////////// */
 .container-footer {
