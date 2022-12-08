@@ -129,8 +129,22 @@ article {
   border-radius: 47px;
   flex-basis: 30%;
   height: 700px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding: 40px 25px;
+}
+
+.product-bag p {
+  margin-bottom: 10px;
+}
+
+.price {
+  margin-bottom: 80px;
+}
+
+article li {
+  list-style: none;
+  text-align: center;
 }
 
 
@@ -142,12 +156,14 @@ article {
 .swan-secondary {
   height: 87px;
   width: 87px;
+  margin-bottom: 10px;
 }
 
 .add-bag {
   width: 100%;
   background-color: #2e6a73;
-  margin-top: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   border-radius: 47px;
   height: 75px;
   border-style: none;
@@ -155,6 +171,10 @@ article {
   font-size: 25px;
   font-family: 'Iowan Old Style';
   font-style: italic;
+}
+
+article li:last-child {
+  /* margin-top: 40px; */
 }
 
 article a {
@@ -178,22 +198,28 @@ article a:hover {
 
 .description-container {
   display: flex;
-  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* flex-wrap: wrap; */
   border-bottom: solid #2e6a73 2px;
   border-top: solid #2e6a73 2px;
   /* background-color: red; */
   padding-top: 50px;
   padding-bottom: 50px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .details-col-1 {
-  width: 30%;
+  width: 35%;
 }
 
 .details-col-2 {
 width: 30%;
 /* background-color: blue; */
 /* margin-left: 100px; */
+}
+
+article h2 {
+  margin: 30px 0;
 }
 
 /* //////////////////////Footer starts here///////////////////////// */
