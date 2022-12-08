@@ -22,7 +22,7 @@ body {
 
 header {
   background-color: #2e6a73;
-  height: 70px;
+  height: 100px;
   width: 100%;
   top: 0;
   position: fixed;
@@ -40,10 +40,11 @@ header {
   height: auto;
   text-align: center;
   font-family: Inspiration;
-  font-style: normal;
-  font-size: 60px;
+  font-style: italic;
+  font-size: 90px;
   top: 0;
   color: #fff;
+  font-weight: 400;
 }
 
 .nav-menu {
@@ -131,8 +132,8 @@ article {
 
 .filter-zone {
   width: 100%;
-  margin-top: 110px;
-  margin-bottom: 40px;
+  margin-top: 140px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
 }
