@@ -190,42 +190,9 @@ article {
   right: 0;
 }
 
-.shopping-bag-product-box {
-  width: 1051px;
-  height: 491px;
-  margin-left: 60px;
-  background: #f7f7f7;
-  border: 5px solid #2e6a73;
-  border-radius: 47px;
-  padding-top: 76px;
-  padding-left: 40px;
-  padding-bottom: 71px;
-}
-
-.shopping-bag-swan-box {
-  width: 360px;
-  height: 344px;
-  left: 100px;
-  top: 392px;
-  background: #f7f7f7;
-  border: 5px solid #2e6a73;
-  border-radius: 47px;
-  background-color: white;
-}
-
-.voucher-box {
-  width: 1051px;
-  height: 317px;
-  margin-top: 70px;
-  margin-left: 60px;
-  background: #f7f7f7;
-  border: 5px solid #2e6a73;
-  border-radius: 47px;
-}
-
 .order-summary-box {
   width: 564px;
-  height: 1162px;
+  height: 762px;
   margin-left: 1196px;
   background: #f7f7f7;
   border: 5px solid #2e6a73;
