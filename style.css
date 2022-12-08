@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inspiration;
+  src: url("Inspiration-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Iowan Old Style";
+  src: url("Bitstream\ Iowan\ Old\ Style\ BT.ttf");
+  /* font-style: italic; */
+}
+
+body {
+  font-family: "Iowan Old Style";
+  /* font-style: italic; */
+}
+
+header {
+  background-color: #2e6a73;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+.title-box {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.main-title {
+  position: absolute;
+  height: auto;
+  text-align: center;
+  font-family: Inspiration;
+  font-style: normal;
+  font-size: 60px;
+  top: 0;
+  color: #fff;
+}
+
+.nav-menu {
+  position: absolute;
+  height: auto;
+  bottom: 4px;
+  margin-left: 60px;
+  font-size: 17px;
+}
+
+/* .nav-menu  This zone lets footer links be black */
+a:link {
+  text-decoration: none;
+  color: #000;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-menu a:hover {
+  border-bottom: solid 4px red;
+}
+
+a:active {
+  color: #fff;
+}
+
+a:visited {
+  color: #000;
+}
+
+.nav-menu a:last-child {
+  margin-right: 0;
+}
+
+.search-bar {
+  position: absolute;
+  right: 150px;
+  top: 35%;
+}
+
+#search {
+  border: 1px solid #000;
+  border-radius: 13px;
+  height: 25px;
+  background-color: #2e6a73;
+  color: #000;
+  width: 200px;
+}
+
+#search::placeholder {
+  color: #000;
+  font-family: "Iowan Old Style";
+  font-size: 14px;
+  padding-left: 7px;
+}
+
+#profile {
+  position: absolute;
+  right: 40px;
+  top: 30%;
+}
+
+#profile a img {
+  width: 30px;
+  height: 30px;
+  background-color: #2e6a73;
+}
+
+#bag {
+  position: absolute;
+  right: 90px;
+  top: 30%;
+}
+
+#bag a img {
+  width: 30px;
+  height: 30px;
+  background-color: #2e6a73;
+}
+
+article {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.filter-zone {
+  width: 100%;
+  margin-top: 110px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-box {
+  height: 40px;
+  width: 250px;
+  border-radius: 45px;
+  box-shadow: rgb(72, 72, 72) 2px 2px 4px;
+  background-color: #fff;
+  border: solid #2e6a73 3px;
+  cursor: pointer;
+  font-family: "Iowan Old Style";
+  font-size: 17px;
+  position: relative;
+}
+
+.filter-box-search {
+  height: 40px;
+  width: 250px;
+  border-radius: 45px;
+  box-shadow: rgb(72, 72, 72) 2px 2px 4px;
+  background-color: #fff;
+  border: solid #2e6a73 3px;
+  font-family: "Iowan Old Style";
+  font-size: 18px;
+}
+
+.filter-box-search[type="text"]::placeholder {
+  text-align: center;
+}
+
+#filter {
+  position: absolute;
+  left: 15px;
+  top: 6px;
+}
+
+.filter-box img {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  right: 15px;
+  top: 6px;
+}
+
+#sort-by {
+  position: absolute;
+  right: 15px;
+  top: 6px;
+}
+
+/* Product lists */
+
+.product-raw {
+  display: flex;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+  height: 704px;
+  flex-wrap: wrap;
+}
+
+.product-link-box {
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.product-box {
+  margin: auto;
+  width: 400px;
+  height: 560px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: solid 5px #2e6a73;
+  border-radius: 47px;
+  background-color: #f7f7f7;
+  box-shadow: rgb(72, 72, 72) 2px 2px 4px;
+}
+
+.product-box img {
+  width: 392px;
+  height: 392px;
+  margin-top: 50px;
+}
+
+.product-info {
+  position: relative;
+}
+
+.product-spec {
+  margin-top: 30px;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  text-align: left;
+  font-style: italic;
+}
+
+.product-name {
+  font-family: "Iowan Old Style";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  opacity: 0.75;
+  color: #030000;
+}
+
+.product-detail {
+  font-family: "Iowan Old Style";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #030000;
+  opacity: 0.75;
+}
+
+.product-price {
+  color: #000;
+  position: absolute;
+  right: 30px;
+  top: -25px;
+  z-index: 999;
+  margin-top: 40px;
+  font-style: italic;
+  font-size: 30px;
+}
+
+/* /////////////////////////////////////////////// */
+.container-footer {
+  max-width: 1820px;
+  /* background-color: red; */
+  margin: auto;
+}
+
+.row {
+  margin-left: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #2e6a73;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+footer li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+footer h4 {
+  margin-bottom: 35px;
+  font-size: 18px;
+  color: white;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: white;
+  padding-left: 10px;
+}
+
+ul {
+  list-style: none;
+}
