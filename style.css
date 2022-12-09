@@ -12,12 +12,10 @@
 @font-face {
   font-family: "Iowan Old Style";
   src: url("Bitstream\ Iowan\ Old\ Style\ BT.ttf");
-  /* font-style: italic; */
 }
 
 body {
   font-family: "Iowan Old Style";
-  /* font-style: italic; */
 }
 
 header {
@@ -40,10 +38,11 @@ header {
   height: auto;
   text-align: center;
   font-family: Inspiration;
-  font-style: normal;
+  font-style: italic;
   font-size: 60px;
   top: 0;
   color: #fff;
+  font-weight: 400;
 }
 
 .nav-menu {
@@ -230,7 +229,7 @@ article {
   border: solid 5px #2e6a73;
   border-radius: 47px;
   box-shadow: rgb(72, 72, 72) 2px 2px 4px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .product-box img {
