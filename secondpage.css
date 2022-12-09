@@ -123,9 +123,23 @@ article {
   flex-basis: 60%;
   box-shadow: rgb(72, 72, 72) 2px 2px 4px;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swan-main {
+  height: 600px;
+  width: 900px
+  margin-top: 20px;
+}
+
+.ball-container{
+  width: 155px ;
+  height: 40px;
+  display: flex;
+  box-sizing: border-box;
   gap: 5px;
+  margin-top: 20px;
 }
 
 .ball {
@@ -134,6 +148,7 @@ article {
   height: 35px;
   width: 35px;
   margin-bottom: 20px;
+
 }
 
 .ball-coloured {
