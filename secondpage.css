@@ -165,7 +165,7 @@ article {
   margin-bottom: 80px;
 }
 
-article li {
+.add-bag-li {
   list-style: none;
   text-align: center;
 }
@@ -195,6 +195,7 @@ article li {
   font-size: 25px;
   font-family: 'Iowan Old Style';
   font-style: italic;
+  cursor: pointer;
 }
 
 /* Description Details about the project */
@@ -238,6 +239,10 @@ article li {
 width: 30%;
 /* background-color: blue; */
 /* margin-left: 100px; */
+}
+
+.details-li {
+  text-align: left;
 }
 
 
