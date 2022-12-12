@@ -48,6 +48,11 @@ header {
   font-weight: 400;
 }
 
+.main-title:link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .nav-menu {
   position: absolute;
   height: auto;

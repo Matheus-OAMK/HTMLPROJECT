@@ -6,17 +6,17 @@
 
 @font-face {
   font-family: Inspiration;
-  src: url('Inspiration-Regular.ttf');
+  src: url("Inspiration-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Iowan Old Style';
-  src: url('Bitstream\ Iowan\ Old\ Style\ BT.ttf');
+  font-family: "Iowan Old Style";
+  src: url("Bitstream\ Iowan\ Old\ Style\ BT.ttf");
   /* font-style: italic; */
 }
 
 body {
-  font-family: 'Iowan Old Style';
+  font-family: "Iowan Old Style";
   font-style: italic;
   font-size: 18px;
 }
@@ -46,6 +46,11 @@ header {
   color: #fff;
   font-style: italic;
   font-weight: 400;
+}
+
+.main-title:link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .nav-menu {
@@ -162,8 +167,8 @@ article {
   margin-top: 20px;
 }
 
-.ball-container{
-  width: 155px ;
+.ball-container {
+  width: 155px;
   height: 40px;
   display: flex;
   box-sizing: border-box;
@@ -172,7 +177,7 @@ article {
 }
 
 .ball {
-  border:solid 5px #2e6a73;
+  border: solid 5px #2e6a73;
   border-radius: 100px;
   height: 35px;
   width: 35px;
@@ -181,7 +186,7 @@ article {
 }
 
 .ball-coloured {
-  border:solid 5px #2e6a73;
+  border: solid 5px #2e6a73;
   border-radius: 100px;
   height: 35px;
   width: 35px;
@@ -191,21 +196,21 @@ article {
 }
 
 .back-icon {
- position:absolute ;
- z-index: 999;
- width: 50px;
- height: 50px;
- left: 20px;
- top: 325px;
- cursor: pointer;
+  position: absolute;
+  z-index: 999;
+  width: 50px;
+  height: 50px;
+  left: 20px;
+  top: 325px;
+  cursor: pointer;
 }
 
 .next-icon {
   width: 50px;
   height: 50px;
-  position:absolute;
+  position: absolute;
   z-index: 999;
-  right:20px;
+  right: 20px;
   align-items: center;
   top: 325px;
   cursor: pointer;
@@ -248,7 +253,6 @@ article {
   margin-top: 10px;
 }
 
-
 .hr-1 {
   border: none;
   border-bottom: 2px solid #2e6a73;
@@ -262,8 +266,6 @@ article {
   cursor: pointer;
 }
 
-
-
 .add-bag {
   width: 100%;
   background-color: #2e6a73;
@@ -275,7 +277,7 @@ article {
   border-style: none;
   color: white;
   font-size: 28px;
-  font-family: 'Iowan Old Style';
+  font-family: "Iowan Old Style";
   font-style: italic;
   cursor: pointer;
 }
@@ -318,22 +320,17 @@ article {
   box-shadow: rgb(72, 72, 72) 2px 2px 4px;
 }
 
-
 .details-col-1 {
   width: 35%;
 }
 
 .details-col-2 {
-width: 30%;
-
+  width: 30%;
 }
 
 .details-li {
   text-align: left;
 }
-
-
-
 
 /* You may also like this.... */
 article h2 {
@@ -352,7 +349,6 @@ article h2 {
   flex-wrap: wrap;
 }
 
-
 .product-link-box {
   flex-flow: row wrap;
   justify-content: space-around;
@@ -368,7 +364,7 @@ article h2 {
   border: solid 5px #2e6a73;
   border-radius: 47px;
   box-shadow: rgb(72, 72, 72) 2px 2px 4px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .product-box img {
