@@ -150,7 +150,7 @@ article {
   height: 35px;
   width: 35px;
   margin-bottom: 20px;
-
+  cursor: pointer;
 }
 
 .ball-coloured {
@@ -160,6 +160,7 @@ article {
   width: 35px;
   background-color: #2e6a73;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .back-icon {
@@ -169,6 +170,7 @@ article {
  height: 50px;
  left: 20px;
  top: 325px;
+ cursor: pointer;
 }
 
 .next-icon {
@@ -179,6 +181,7 @@ article {
   right:20px;
   align-items: center;
   top: 325px;
+  cursor: pointer;
 }
 
 .product-bag {
@@ -220,7 +223,10 @@ article {
   height: 87px;
   width: 87px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
+
+
 
 .add-bag {
   width: 100%;
