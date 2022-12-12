@@ -234,9 +234,7 @@ article {
 }
 
 .additional-product-info {
-  font-family: sans-serif;
   font-size: 15px;
-  font-style: normal;
 }
 
 .product-action {
@@ -551,7 +549,7 @@ hr {
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
-  opacity: 0.75;
+  /* opacity: 0.75; */
   color: #030000;
 }
 

@@ -282,6 +282,10 @@ article {
   cursor: pointer;
 }
 
+.add-bag:active {
+  box-shadow: none;
+}
+
 /* Description Details about the project */
 
 .description-link {
