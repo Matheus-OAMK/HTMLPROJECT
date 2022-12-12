@@ -356,24 +356,23 @@ article {
 
 .order-summary-header {
   margin-bottom: 30px;
-}
-
-.order-summary h3 {
-  color: #000;
-  opacity: 0.75;
-  font-size: 18px;
+  font-size: 28px;
 }
 
 .subtorial-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 28px;
 }
 
 .shipping-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: #000;
+  opacity: 0.75;
+  font-size: 18px;
 }
 
 .total-box {
@@ -381,13 +380,18 @@ article {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 30px;
+  font-size: 28px;
 }
 
 .vat-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: #000;
+  opacity: 0.75;
+  font-size: 18px;
 }
+
 .checkout-button {
   color: #fff;
   background-color: #2e6a73;
@@ -477,7 +481,7 @@ article {
 
 .privacy-policy-info {
   width: 360px;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 30px;
 }
 
