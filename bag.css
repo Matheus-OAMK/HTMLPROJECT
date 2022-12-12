@@ -449,7 +449,6 @@ article {
 }
 
 .apple-pay-button:active {
-  margin-left: 1px;
   box-shadow: none;
 }
 
@@ -473,7 +472,6 @@ article {
 }
 
 .google-pay-button:active {
-  margin-left: 1px;
   box-shadow: none;
 }
 
