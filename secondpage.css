@@ -22,7 +22,7 @@ body {
 
 header {
   background-color: #2e6a73;
-  height: 70px;
+  height: 100px;
   width: 100%;
   top: 0;
   position: fixed;
@@ -40,19 +40,22 @@ header {
   height: auto;
   text-align: center;
   font-family: Inspiration;
-  font-style: normal;
-  font-size: 60px;
+  font-size: 90px;
   top: 0;
   color: #fff;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .nav-menu {
   position: absolute;
   height: auto;
-  bottom: 3px;
-  margin-left: 20px;
+  bottom: 4px;
+  margin-left: 60px;
+  font-size: 17px;
 }
 
+/* .nav-menu  This zone lets footer links be black */
 .nav-menu a:link {
   text-decoration: none;
   color: #000;
@@ -61,15 +64,14 @@ header {
 }
 
 .nav-menu a:hover {
-  /* text-decoration: solid #a13737 underline 3px; */
-  border-bottom: solid 3px red;
+  border-bottom: solid 4px black;
 }
 
-a:active {
+.nav-menu a:active {
   color: #fff;
 }
 
-a:visited {
+.nav-menu a:visited {
   color: #000;
 }
 
@@ -94,10 +96,33 @@ a:visited {
 
 #search::placeholder {
   color: #000;
-  font-family: 'Iowan Old Style';
-  font-style: italic;
+  font-family: "Iowan Old Style";
   font-size: 14px;
   padding-left: 7px;
+}
+
+#profile {
+  position: absolute;
+  right: 40px;
+  top: 30%;
+}
+
+#profile a img {
+  width: 30px;
+  height: 30px;
+  background-color: #2e6a73;
+}
+
+#bag {
+  position: absolute;
+  right: 90px;
+  top: 30%;
+}
+
+#bag a img {
+  width: 30px;
+  height: 30px;
+  background-color: #2e6a73;
 }
 
 /* /////////////////////// Product Details ///////////////////////// */
