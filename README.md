@@ -10,3 +10,8 @@ You can click on the shopping bag on the top right to see the checkout page.
 
 Additionally you can click on "Necklaces" or on the "Title" to go back to the product list view.
 Or on the checkout page you can click on the swan image or the product title "Dancing Swan Necklace" to go back to the product description view.
+
+#PAGES
+
+The link to view the webpage.
+https://matheus-oamk.github.io/HTMLPROJECT/
