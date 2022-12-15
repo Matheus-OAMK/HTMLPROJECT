@@ -14,7 +14,7 @@ Or on the checkout page you can click on the swan image or the product title "Da
 
 One more thing for Mac users and others, who is using Safari as main browser, third page (Shopping bag) includes the bug with "Voucher code" placeholder. All tests were running in Google Chrome and Firefox browsers only and we could not notice that bug before. Suggest you to run these web-pages in Google Chrome and Firefox browsers.
 
-#PAGES
+# PAGES
 
 The link to view the webpage.
 https://matheus-oamk.github.io/HTMLPROJECT/
